@@ -1,4 +1,4 @@
-export function fizzBuzz(i: number) {
+export function FizzBuzz(i: number) {
   // check if the integer is positive
   if (i <= 0) {
     console.log("Please enter a positive integer greater than zero(0).");
@@ -24,4 +24,4 @@ export function fizzBuzz(i: number) {
   }
 }
 
-fizzBuzz(8);
+FizzBuzz(8);
